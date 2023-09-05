@@ -49,8 +49,7 @@ map.addEventListener("click", (event) => {
   distanceHelp.textContent = getDistanceHint(distance);
 
   if (
-    getDistanceHint(distance) === "Холодно" ||
-    getDistanceHint(distance) === "Горячо"
+    getDistanceHint(distance) === "Холодно" 
   ) {
     alert("Осталось кликов: " + clicksToFinish);
   }
